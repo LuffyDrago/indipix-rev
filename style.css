@@ -765,10 +765,10 @@ a {
     .ninelogos {
         padding-top: 40px;
     }
-    .actfoot {
+    /* .actfoot {
         display: flex;
         flex-direction: row;
-    }
+    } */
 }
 
 
