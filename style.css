@@ -351,11 +351,13 @@ header {
     box-shadow: -10px 2px 25px rgba(171, 175, 199, .4);
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 
-.revolt {
+
+/* .revolt{
     width: 40%;
-}
+} */
 
 .headpat {
     color: #0bd68a;
@@ -380,7 +382,7 @@ header {
 }
 
 .ninelogos {
-    padding-top: 1rem;
+    padding-top: 4rem;
     padding-bottom: 1rem;
     display: flex;
     flex-direction: row;
@@ -478,13 +480,12 @@ header {
 }
 
 .finalcontainer {
-    width: 25%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    display: inline-block;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding: 1.5em;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
 }
 
 .ouroffices {
@@ -515,18 +516,25 @@ header {
     padding-bottom: 1rem;
     display: inline-block;
     padding-right: 1rem;
+    text-align: center;
 }
 
 .paraaddress {
     padding-top: 20px;
     color: #70798b;
     line-height: 1.4285em;
+    text-align: center;
 }
 
 .ct {
     padding-top: 1rem;
     padding-bottom: 1rem;
     display: inline-block;
+    text-align: center;
+}
+
+.lst {
+    background-color: black;
 }
 
 .linedivider {
@@ -544,10 +552,11 @@ header {
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    justify-content: space-evenly;
 }
 
 .firstaddres {
-    padding-top: 1rem;
+    padding-top: 1.56rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -558,16 +567,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     align-self: center;
-    width: 62.5%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 8rem;
-    padding-right: 1rem;
-    align-self: center;
 }
-
-
-/* seminav */
 
 .secad {
     /* min-height: 2.85714286em; */
@@ -577,5 +577,105 @@ header {
     text-align: center;
 }
 
+.thirdi {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.thirdicon {
+    border-radius: 10em;
+    padding: .78571429em;
+    background-color: black;
+}
+
+.thirdicon:hover {
+    background-color: rgb(10, 10, 90);
+}
+
+.thirdicon1:hover {
+    background-color: blueviolet;
+}
+
+.thirdicon2:hover {
+    background-color: rgb(33, 11, 54);
+}
+
+.thirdicon3:hover {
+    background-color: crimson;
+}
+
+.thirdicon1 {
+    border-radius: 10em;
+    padding: .78571429em;
+    background-color: black;
+}
+
+.thirdicon2 {
+    border-radius: 10em;
+    padding: .78571429em;
+    background-color: black;
+}
+
+.thirdicon3 {
+    border-radius: 10em;
+    padding: .78571429em;
+    background-color: black;
+}
+
 
 /* End of footer */
+
+@media screen and (max-width: 700px) {
+    .landing {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .right {
+        display: flex;
+        width: 100%;
+    }
+    .services {
+        display: block;
+    }
+    .advertisement {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 46%;
+    }
+    .rounded {
+        width: 46%;
+    }
+    .stakeholders {
+        display: flex;
+        margin: -1rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .patnerspara {
+        align-content: center;
+    }
+    .ninelogos {
+        padding-top: 40px;
+    }
+    .actfoot {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/* @media screen and (max-width: 600px) {
+    .card{
+        width: 92%;
+    }
+} */
+
+@media screen and (min-width: 700px) {
+    .finalcontainer {
+        width: 25%;
+    }
+}
