@@ -643,9 +643,9 @@ header {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .card {
+    /* .card {
         width: 46%;
-    }
+    } */
     .rounded {
         width: 46%;
     }
